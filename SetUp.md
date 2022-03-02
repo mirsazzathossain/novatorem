@@ -53,7 +53,7 @@ You can now use the following in your readme:
 
 ## Hide the EQ bar
 
-Remove the `#` in front of `contentBar` in [line 81](https://github.com/novatorem/novatorem/blob/98ba4a8489ad86f5f73e95088e620e8859d28e71/api/spotify.py#L81) of current master, then the EQ bar will be hidden when you're in not currently playing anything.
+Remove the `#` in front of `contentBar` in [line 109](https://github.com/mirsazzathossain/spotify-playing-now/blob/fd9a2a6160e44e76127918c5e49e0d91075c5227/api/spotify.py#L109) of current master, then the EQ bar will be hidden when you're in not currently playing anything.
 
 ## Status String
 
