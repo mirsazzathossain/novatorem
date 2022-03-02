@@ -59,9 +59,9 @@ Remove the `#` in front of `contentBar` in [line 109](https://github.com/mirsazz
 
 Have a string saying either "Vibing to:" or "Last seen playing:".
 
-* Change [`height` to `height + 40`](https://github.com/novatorem/novatorem/blob/5194a689253ee4c89a9d365260d6050923d93dd5/api/templates/spotify.html.j2#L1-L2) (or whatever `margin-top` is set to)
-* Uncomment [**.main**'s `margin-top`](https://github.com/novatorem/novatorem/blob/5194a689253ee4c89a9d365260d6050923d93dd5/api/templates/spotify.html.j2#L10)
-* Uncomment [currentStatus](https://github.com/novatorem/novatorem/blob/5194a689253ee4c89a9d365260d6050923d93dd5/api/templates/spotify.html.j2#L93)
+* Change [`height` to `height + 40`](https://github.com/mirsazzathossain/spotify-playing-now/blob/65d4d98f81362b42c63d0bbd658cb44f2a08deff/api/templates/spotify.html.j2#L1-L2) (or whatever `margin-top` is set to)
+* Uncomment [**.main**'s `margin-top`](https://github.com/mirsazzathossain/spotify-playing-now/blob/65d4d98f81362b42c63d0bbd658cb44f2a08deff/api/templates/spotify.html.j2#L6)
+* Uncomment [currentStatus](https://github.com/mirsazzathossain/spotify-playing-now/blob/65d4d98f81362b42c63d0bbd658cb44f2a08deff/api/templates/spotify.html.j2#L109)
 
 ## Theme Templates
 
@@ -83,7 +83,7 @@ You can customize the appearance of your `Card` however you wish with URL params
 - `border_color` - Card border color _(hex color)_ without `#`
 
 Use `/?background_color=8b0000&border_color=ffffff` parameter like so:  
-&nbsp; <br> [![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)]()
+&nbsp; <br> [![Spotify](https://spotify-playing-now-phi.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)]()
 
 ## Spotify Logo
 
